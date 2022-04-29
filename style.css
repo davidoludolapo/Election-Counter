@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  flex-direction: column;
+  margin: 0;
+
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.nav-container {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  margin: 6px 18px;
+  position: relative;
+}
+
+img {
+  height: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: bold;
+  letter-spacing: 20px;
+  color: #34656d;
+  font-size: 2.5rem;
+  margin-top: 5rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  color: #333;
+  letter-spacing: 7px;
+  font-size: 20px;
+}
+
+h2 .nspan {
+  color: rgb(0, 128, 53);
+  font-size: 20px;
+}
+
+.countdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+}
+
+.big-text {
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 1rem 2rem;
+  color: #34656d;
+}
+
+.count-el {
+  text-align: center;
+}
+
+.count-el span {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.input-container {
+  width: 1200px;
+  width: 40vw;
+  margin-left: 590px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  background-color: rgb(0, 128, 53);
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  height: 65px;
+  width: 50%;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+button:hover {
+  background-color: rgb(19, 161, 19);
+}
+
+button > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.socials span {
+  margin: 15px 15px;
+  color: rgb(0, 128, 53);
+}
