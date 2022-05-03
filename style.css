@@ -74,7 +74,7 @@ h2 .nspan {
 .count-el span {
   font-size: 1.5rem;
   font-weight: 500;
-  color: #fff;
+  color: #333;
 }
 
 .input-container {
@@ -117,4 +117,14 @@ footer {
 .socials span {
   margin: 15px 15px;
   color: rgb(0, 128, 53);
+}
+
+@media screen and (max-width: 767px) {
+    .header{
+        padding: 15px auto;
+    }
+
+    button {
+        display: block;
+    }
 }
